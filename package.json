@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josepot/use-record.git"
@@ -39,12 +39,14 @@
   "author": "Josep M Sobrepere",
   "module": "dist/use-record.esm.js",
   "devDependencies": {
+    "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^25.2.1",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
     "husky": "^4.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
     "tsdx": "^0.13.1",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
